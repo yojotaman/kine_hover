@@ -1,0 +1,38 @@
+body {
+	background:#088A08;
+	font-family: sans-serif;
+	font-size: 19px;
+}
+
+img, p {
+  transition: .8s;
+}
+
+.post {
+	border: 2px solid black;
+	background: white;
+	padding: 30px;
+	text-align: center;
+	transition:.5s;
+	overflow: hidden;
+}
+
+.post:hover {
+	background: #A4A4A4;
+}
+
+
+.post:hover img {
+	transform:scale(1.2);
+}
+.post img {
+	transform:translateY(-320px);
+}
+
+.post p {
+	transform:translateY(120px);
+}
+
+.post:hover p {
+	transform:translateY(20px);
+}
